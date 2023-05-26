@@ -43,13 +43,17 @@ body {
 
 section {
     width: 100%;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 h2 {
     padding: 1.2rem 2rem;
     font-family: 'Bebas Neue';
     background: #0003;
+}
+
+h5 {
+    padding-left: 2rem;
 }
 
 p,
@@ -80,7 +84,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: #fffa;
     z-index: 10;
 }
 
@@ -149,6 +153,7 @@ nav div {
     position: relative;
     width: 100vw;
     height: 90vh;
+    margin-top: 0;
     margin-bottom: 10rem;
     background: url(), #E7D27C40;
     display: flex;
@@ -174,13 +179,14 @@ nav div {
     position: absolute;
     bottom: -12rem;
     width: 100%;
-    border-bottom: 0.1rem black solid;
     background: #fff;
     text-align: center;
 }
 
 .banner h2 {
     margin: 0;
+    padding: 0;
+    padding-top: 1.2rem;
     font-family: 'League Spartan';
     font-weight: 800;
 }
@@ -199,7 +205,13 @@ nav div {
 }
 
 /*--------------------------------SECTION: PROJECTS
+                                  SECTION: EXPERIENCE
 */
+
+.project-heading {
+    color: #0FA0CE;
+    background: #1EAEDB30;
+}
 
 .cards {
     display: flex;
@@ -268,6 +280,16 @@ and (max-width: 800px) {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.single {
+    width: 95%;
+    max-width: 78rem;
+    margin-left: 2rem;
+}
+
+.single p {
+    margin-bottom: 2.4rem;
 }
 
 /*--------------------------------SECTION: EDUCATION
