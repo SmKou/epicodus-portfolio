@@ -1,9 +1,45 @@
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+@font-face {
+    font-family: 'Broken Heart';
+    src: url('./fonts/BrokenHeart.eot');
+    src: url('./fonts/BrokenHeart.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/BrokenHeart.woff2') format('woff2'),
+        url('./fonts/BrokenHeart.woff') format('woff'),
+        url('./fonts/BrokenHeart.ttf') format('truetype'),
+        url('./fonts/BrokenHeart.svg#BrokenHeart') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Zhi Mang Xing';
+    src: url('./fonts/ZhiMangXing-Regular.eot');
+    src: url('./fonts/ZhiMangXing-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ZhiMangXing-Regular.woff2') format('woff2'),
+        url('./fonts/ZhiMangXing-Regular.woff') format('woff'),
+        url('./fonts/ZhiMangXing-Regular.ttf') format('truetype'),
+        url('./fonts/ZhiMangXing-Regular.svg#ZhiMangXing-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
+* {
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar { display: none }
+html { font-size: 62.5% }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.name .sm { font-family: 'Broken Heart' }
+.name .kou { font-family: 'Zhi Mang Xing' }
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
