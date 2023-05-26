@@ -6,15 +6,21 @@ Basic portfolio site for Smkou.
 
 ## Technologies Used
 
+- HTML5
+- CSS3
 - Skeleton 2.0.4 by Dave Gamache
 
 ## Description
+
+
 
 ## Complete Setup
 
 No setup or installation required. View at [Smkou Portfolio]()
 
 ## Known Bugs
+
+- Lacks use of breakpoints
 
 ## License
 
