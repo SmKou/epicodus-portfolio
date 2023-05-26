@@ -41,15 +41,88 @@ html {
     font-size: 62.5%;
 }
 
+section {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+section.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+}
+
 p {
     font-family: 'League Spartan';
     font-weight: 100;
+    font-size: 2rem;
 }
 
 a {
     font-family: 'League Spartan';
     font-weight: 100;
     text-decoration: none;
+    font-size: 2rem;
+}
+
+a.button {
+    margin-top: 1.6rem;
+}
+
+.card {
+    width: 85%;
+    max-width: 80rem;
+    margin: 1.2rem;
+    padding: 2rem;
+    border: 0.1rem black solid;
+    border-radius: 1.2rem;
+}
+
+.card figure {
+    display: block;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0;
+    margin-right: 1.2rem;
+    padding: 0;
+    float: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-bottom: 0.2rem groove black;
+    border-radius: 1.2rem;
+}
+
+.card h3 {
+    font-family: 'League Spartan';
+    font-weight: 400;
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.card .card-connect {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen
+and (min-width: 500px)
+and (max-width: 800px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /*--------------------------------NAVIGATION
@@ -60,6 +133,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    background: white;
+    z-index: 10;
 }
 
 nav div {
@@ -70,6 +145,11 @@ nav div {
 .logo {
     margin-left: 1rem;
     padding-bottom: 1.2rem;
+}
+
+.logo img {
+    width: 4.2rem;
+    height: 4.2rem;
 }
 
 .logo h1 {
@@ -96,6 +176,17 @@ nav div {
     float: left;
 }
 
+.page-links a:hover {
+    border-bottom: 1px solid #0FA0CE;
+}
+
+@media screen and (max-width: 500px) {
+    .page-links a {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+}
+
 @media screen and (min-width: 750px) {
     .page-links {
         position: absolute;
@@ -111,16 +202,19 @@ nav div {
     position: relative;
     width: 100vw;
     height: 90vh;
+    margin-bottom: 10rem;
     background: url(), #E7D27C40;
+    display: flex;
+    justify-content: center;
 }
 
 .banner figure {
     position: absolute;
     bottom: 0;
-    display: block;
-    width: 60%;
+    width: 50%;
     min-width: 30rem;
     max-width: 60rem;
+    display: block;
     height: auto;
 }
 
@@ -131,7 +225,7 @@ nav div {
 
 .banner figcaption {
     position: absolute;
-    bottom: -2.4rem;
+    bottom: -12rem;
     width: 100%;
     padding: 2rem 0;
     border-bottom: 0.1rem black solid;
@@ -152,6 +246,9 @@ nav div {
     line-height: 1;
 }
 
+.banner .button {
+    margin-top: 1.2rem;
+}
 
 /*--------------------------------MEDIA QUERIES
 */
