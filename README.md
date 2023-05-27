@@ -22,6 +22,13 @@ No setup or installation required. View at [Smkou Portfolio]()
 
 - Lacks use of breakpoints
 
+## Credits
+
+**Photo** Child looking at book
+By: [Paul Hanaoka](https://unsplash.com/@plhnk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+From: [Unsplash](https://unsplash.com/s/photos/child-programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/) Copyright (c) Sm Kou 2023
