@@ -1,5 +1,28 @@
+main {
+    margin-top: 10rem;
+}
+
 img {
     width: 30rem;
     height: auto;
+    margin-right: 1.8rem;
+    border-radius: 0.6rem;
     float: left;
+}
+
+img.right {
+    margin-right: 0;
+    margin-left: 1.8rem;
+    float: right;
+}
+
+img.none {
+    width: 100%;
+    margin: 1.8rem 0;
+    clear: both;
+}
+
+p {
+    margin: 1.2rem 0;
+    text-align: justify;
 }
