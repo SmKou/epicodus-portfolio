@@ -2,13 +2,14 @@
 
 By: [Stella Marie](https://github.com/SmKou)
 
-Basic portfolio site for Smkou.
+Basic portfolio site built mostly with html and css.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - Skeleton 2.0.4 by Dave Gamache
+- Javascript
 
 ## Description
 
@@ -20,7 +21,7 @@ No setup or installation required. View at [Smkou Portfolio]()
 
 ## Known Bugs
 
-- Lacks use of breakpoints
+Please report any issues in viewing the site.
 
 ## Credits
 
@@ -47,7 +48,6 @@ From: [Unsplash](https://unsplash.com/s/photos/woman-tired-laptop?utm_source=uns
 **Photo** Monk walked long way
 By: [Jose Antonio Alba](https://pixabay.com/users/josealbafotos-1624766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1077839)
 From: [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1077839)
-  
 
 ## License
 
