@@ -2,13 +2,6 @@ main {
     overflow: hidden;
 }
 
-.page-links a.button-primary {
-    margin: 0;
-    margin-top: -1.2rem;
-    margin-right: 1.8rem;
-    line-height: 38px;
-}
-
 section {
     position: relative;
     margin-top: 4.8rem;

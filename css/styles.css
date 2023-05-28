@@ -131,6 +131,13 @@ nav div {
     border-bottom: 1px solid #0FA0CE;
 }
 
+.page-links a.button {
+    margin: 0;
+    margin-top: -1.2rem;
+    margin-right: 1.8rem;
+    line-height: 38px;
+}
+
 @media screen and (max-width: 500px) {
     .page-links a {
         font-size: 1.8rem;
