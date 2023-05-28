@@ -22,6 +22,10 @@ section:nth-of-type(2) {
     padding: 4.2rem 2.4rem 0;
 }
 
+section:last-of-type {
+    margin-bottom: 4.2rem;
+}
+
 .em {
     color: #1EAEDB;
     font-family: 'Bebas Neue';
@@ -50,7 +54,7 @@ section:nth-of-type(2) {
     padding-top: 0;
     background: #E7D27C40;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
