@@ -27,6 +27,9 @@ git clone https://github.com/USERNAME/REPOSITORY.git
 git pull origin main
 ```
 
+- Navigate to the top level of the directory
+- Open index.html in your browser
+
 To keep your forked repo up to date with any updates I make to the repo, use: 
 
 ```bash
@@ -57,4 +60,6 @@ Please report any issues in viewing the site.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/) Copyright (c) Sm Kou 2023
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Copyright (c) 2023 Sm Kou
