@@ -4,7 +4,7 @@ By: [Stella Marie](http://smkou.com)
 
 Basic portfolio site built mostly with html and css.
 
-View on [Github Pages](https://smkou.github.io/smkou-portfolio/)
+View on [Github Pages](https://smkou.github.io/epicodus-portfolio/)
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ This portfolio site was based on the formatting of resumes and consists of two p
 
 This project will not be accepting pull requests, but you may fork the project for your own use.
 
-To fork this project, go to the [repository page](https://github.com/SmKou/smkou-portfolio) and towards the top-right corner, click **Fork**. The page will reload the repo to a form for creating a forked repo. Make sure under **Owner*** that your Github avatar and name are selected, and you may rename the repo if you like under **Repository Name***. By default the option to copy only the MAIN or DEFAULT branch will be selected. Since pull requests will not be accepted, whether you keep this option checked or not will be up to you. Then click Create Fork. You will be taken to the repo page for your the new addition to your repositories. To work on it locally, you will clone it like any other project.
+To fork this project, go to the [repository page](https://github.com/SmKou/epicodus-portfolio) and towards the top-right corner, click **Fork**. The page will reload the repo to a form for creating a forked repo. Make sure under **Owner*** that your Github avatar and name are selected, and you may rename the repo if you like under **Repository Name***. By default the option to copy only the MAIN or DEFAULT branch will be selected. Since pull requests will not be accepted, whether you keep this option checked or not will be up to you. Then click Create Fork. You will be taken to the repo page for your the new addition to your repositories. To work on it locally, you will clone it like any other project.
 
 ```bash
 git clone https://github.com/USERNAME/REPOSITORY.git
@@ -48,7 +48,7 @@ However, I suggest checking that there is an upstream first with:
 git remote -v
 ```
 
-Demo: [Github Pages](https://smkou.github.io/smkou-portfolio/)
+Demo: [Github Pages](https://smkou.github.io/epicodus-portfolio/)
 
 ## Known Bugs
 
